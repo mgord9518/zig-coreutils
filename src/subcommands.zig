@@ -6,6 +6,8 @@ const builtin = @import("builtin");
 const log = std.log.scoped(.subcommand);
 
 pub const SUBCOMMANDS = [_]type{
+    @import("subcommands/base32.zig"),
+    @import("subcommands/base64.zig"),
     @import("subcommands/basename.zig"),
     @import("subcommands/clear.zig"),
     @import("subcommands/dirname.zig"),

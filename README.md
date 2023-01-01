@@ -11,6 +11,8 @@ Currently Linux only to ease development.
 ## Progress
 
 ### Subcommands completed:
+ * base32
+ * base64
  * basename
  * clear
  * dirname
@@ -24,8 +26,6 @@ Currently Linux only to ease development.
 ### Subcommands todo:
  * [
  * b2sum
- * base32
- * base64
  * basenc
  * cat
  * chcon

@@ -11,6 +11,7 @@ pub const free_on_close = is_debug_or_test or tracy.enable;
 const log = std.log.scoped(.shared);
 
 pub const tracy = @import("tracy.zig");
+pub const basexx = @import("shared/basexx.zig").basexx;
 
 pub fn printHelp(comptime subcommand: type, io: anytype, exe_path: []const u8) void {
     const z = tracy.traceNamed(@src(), "print help");
